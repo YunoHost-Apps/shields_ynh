@@ -3,47 +3,40 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# do•doc для YunoHost
+# Shields для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
+[![Уровень интеграции](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
 
-[![Установите do•doc с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Установите Shields с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить do•doc быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Shields быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
 
-Designed to document and create stories from hands-on activities, do•doc (pronounced doudoc) is a composite, open-source, modular tool that allows you to capture media (photos, videos, sounds, and stop-motion), edit them, lay them out, and publish them. Its composite aspect allows it to be reconfigured so that it is as adapted as possible to the situation in which it is deployed.
+Shields.io is a service for concise, consistent, and legible badges in SVG and raster format, which can easily be included in GitHub readmes or any other web page. The service supports dozens of continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services.
 
-**Поставляемая версия:** 11.1.5~ynh1
-
-**Демо-версия:** <https://test.dodoc.fr/>
-
-## Снимки экрана
-
-![Снимок экрана do•doc](./doc/screenshots/screenshot.png)
-
+**Поставляемая версия:** 2024-11-02~ynh1
 ## Документация и ресурсы
 
-- Официальный веб-сайт приложения: <https://dodoc.fr/>
-- Официальная документация администратора: <https://github.com/l-atelier-des-chercheurs/dodoc#readme>
-- Репозиторий кода главной ветки приложения: <https://github.com/l-atelier-des-chercheurs/dodoc>
-- Магазин YunoHost: <https://apps.yunohost.org/app/dodoc>
-- Сообщите об ошибке: <https://github.com/YunoHost-Apps/dodoc_ynh/issues>
+- Официальный веб-сайт приложения: <https://shields.io/>
+- Официальная документация администратора: <https://shields.io/docs>
+- Репозиторий кода главной ветки приложения: <https://github.com/badges/shields>
+- Магазин YunoHost: <https://apps.yunohost.org/app/shields>
+- Сообщите об ошибке: <https://github.com/YunoHost-Apps/shields_ynh/issues>
 
 ## Информация для разработчиков
 
-Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing).
+Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/shields_ynh/tree/testing).
 
 Чтобы попробовать ветку `testing`, пожалуйста, сделайте что-то вроде этого:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 или
-sudo yunohost app upgrade dodoc -u https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app upgrade shields -u https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 ```
 
 **Больше информации о пакетировании приложений:** <https://yunohost.org/packaging_apps>
