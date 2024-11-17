@@ -3,47 +3,40 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# do•doc untuk YunoHost
+# Shields untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
+[![Tingkat integrasi](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
 
-[![Pasang do•doc dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Pasang Shields dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang do•doc secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang Shields secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
 
-Designed to document and create stories from hands-on activities, do•doc (pronounced doudoc) is a composite, open-source, modular tool that allows you to capture media (photos, videos, sounds, and stop-motion), edit them, lay them out, and publish them. Its composite aspect allows it to be reconfigured so that it is as adapted as possible to the situation in which it is deployed.
+Shields.io is a service for concise, consistent, and legible badges in SVG and raster format, which can easily be included in GitHub readmes or any other web page. The service supports dozens of continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services.
 
-**Versi terkirim:** 11.1.5~ynh1
-
-**Demo:** <https://test.dodoc.fr/>
-
-## Tangkapan Layar
-
-![Tangkapan Layar pada do•doc](./doc/screenshots/screenshot.png)
-
+**Versi terkirim:** 2024-11-02~ynh1
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://dodoc.fr/>
-- Dokumentasi admin resmi: <https://github.com/l-atelier-des-chercheurs/dodoc#readme>
-- Depot kode aplikasi hulu: <https://github.com/l-atelier-des-chercheurs/dodoc>
-- Gudang YunoHost: <https://apps.yunohost.org/app/dodoc>
-- Laporkan bug: <https://github.com/YunoHost-Apps/dodoc_ynh/issues>
+- Website aplikasi resmi: <https://shields.io/>
+- Dokumentasi admin resmi: <https://shields.io/docs>
+- Depot kode aplikasi hulu: <https://github.com/badges/shields>
+- Gudang YunoHost: <https://apps.yunohost.org/app/shields>
+- Laporkan bug: <https://github.com/YunoHost-Apps/shields_ynh/issues>
 
 ## Info developer
 
-Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing).
+Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/shields_ynh/tree/testing).
 
 Untuk mencoba branch `testing`, silakan dilanjutkan seperti:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 atau
-sudo yunohost app upgrade dodoc -u https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app upgrade shields -u https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 ```
 
 **Info lebih lanjut mengenai pemaketan aplikasi:** <https://yunohost.org/packaging_apps>

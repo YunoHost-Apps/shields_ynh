@@ -3,47 +3,40 @@ Ohart ongi: README hau automatikoki sortu da <https://github.com/YunoHost/apps/t
 EZ editatu eskuz.
 -->
 
-# do•doc YunoHost-erako
+# Shields YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
 
-[![Instalatu do•doc YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Instalatu Shields YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
-> *Pakete honek do•doc YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
+> *Pakete honek Shields YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
 > *YunoHost ez baduzu, kontsultatu [gida](https://yunohost.org/install) nola instalatu ikasteko.*
 
 ## Aurreikuspena
 
-Designed to document and create stories from hands-on activities, do•doc (pronounced doudoc) is a composite, open-source, modular tool that allows you to capture media (photos, videos, sounds, and stop-motion), edit them, lay them out, and publish them. Its composite aspect allows it to be reconfigured so that it is as adapted as possible to the situation in which it is deployed.
+Shields.io is a service for concise, consistent, and legible badges in SVG and raster format, which can easily be included in GitHub readmes or any other web page. The service supports dozens of continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services.
 
-**Paketatutako bertsioa:** 11.1.5~ynh1
-
-**Demoa:** <https://test.dodoc.fr/>
-
-## Pantaila-argazkiak
-
-![do•doc(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
-
+**Paketatutako bertsioa:** 2024-11-02~ynh1
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://dodoc.fr/>
-- Administratzaileen dokumentazio ofiziala: <https://github.com/l-atelier-des-chercheurs/dodoc#readme>
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/l-atelier-des-chercheurs/dodoc>
-- YunoHost Denda: <https://apps.yunohost.org/app/dodoc>
-- Eman errore baten berri: <https://github.com/YunoHost-Apps/dodoc_ynh/issues>
+- Aplikazioaren webgune ofiziala: <https://shields.io/>
+- Administratzaileen dokumentazio ofiziala: <https://shields.io/docs>
+- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/badges/shields>
+- YunoHost Denda: <https://apps.yunohost.org/app/shields>
+- Eman errore baten berri: <https://github.com/YunoHost-Apps/shields_ynh/issues>
 
 ## Garatzaileentzako informazioa
 
-Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing).
+Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/shields_ynh/tree/testing).
 
 `testing` abarra probatzeko, ondorengoa egin:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 edo
-sudo yunohost app upgrade dodoc -u https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing --debug
+sudo yunohost app upgrade shields -u https://github.com/YunoHost-Apps/shields_ynh/tree/testing --debug
 ```
 
 **Informazio gehiago aplikazioaren paketatzeari buruz:** <https://yunohost.org/packaging_apps>
