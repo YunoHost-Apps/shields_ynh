@@ -47,6 +47,7 @@ ram.runtime = "512M"
     sha256 = "b6719f5587d4ee3158a6798c576fe1d43ef2c4aba67523e4f2df16e5cdb0bd61"
 
     autoupdate.strategy = "latest_github_tag"
+    autoupdate.version_regex = "server-(.*)-(.*)-(.*)"
 
     [resources.system_user]
 
