@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Shields
 
-[![集成程度](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![工作状态](https://apps.yunohost.org/badge/state/shields)
+![维护状态](https://apps.yunohost.org/badge/maintained/shields)
 
 [![使用 YunoHost 安装 Shields](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 

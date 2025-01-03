@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Shields YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/shields)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/shields)
 
 [![Instalatu Shields YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 

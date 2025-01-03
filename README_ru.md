@@ -5,7 +5,9 @@
 
 # Shields для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![Состояние работы](https://apps.yunohost.org/badge/state/shields)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/shields)
 
 [![Установите Shields с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 

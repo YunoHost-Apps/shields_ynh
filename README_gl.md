@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Shields para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/shields)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/shields)
 
 [![Instalar Shields con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 

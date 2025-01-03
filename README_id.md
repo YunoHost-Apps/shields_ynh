@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Shields untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![Status kerja](https://apps.yunohost.org/badge/state/shields)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/shields)
 
 [![Pasang Shields dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 

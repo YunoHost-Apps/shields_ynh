@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Shields voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/shields.svg)](https://ci-apps.yunohost.org/ci/apps/shields/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/shields.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/shields.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/shields)](https://ci-apps.yunohost.org/ci/apps/shields/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/shields)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/shields)
 
 [![Shields met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shields)
 
