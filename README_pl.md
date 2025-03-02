@@ -20,6 +20,7 @@ Nie powinno być ono edytowane ręcznie.
 
 Shields.io is a service for concise, consistent, and legible badges in SVG and raster format, which can easily be included in GitHub readmes or any other web page. The service supports dozens of continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services.
 
+
 **Dostarczona wersja:** 2025.03.01~ynh1
 
 ## Zrzuty ekranu
