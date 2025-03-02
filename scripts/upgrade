@@ -49,6 +49,8 @@ ynh_config_add_nginx
 ynh_config_add_systemd
 yunohost service add "$app" --description="Legible badges in SVG" --log="/var/log/$app/$app.log"
 
+ynh_config_add_logrotate
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================

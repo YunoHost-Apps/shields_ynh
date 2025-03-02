@@ -33,6 +33,9 @@ ynh_restore "/etc/systemd/system/$app.service"
 systemctl enable "$app.service" --quiet
 yunohost service add "$app" --description="Legible badges in SVG" --log="/var/log/$app/$app.log"
 
+mkdir -p "/var/log/$app"
+ynh_restore "/etc/logrotate.d/$app"
+
 #=================================================
 # RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
 #=================================================
