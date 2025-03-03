@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -8,7 +12,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Stopping $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="stop" --log_path="systemd"
+ynh_systemctl --service="$app" --action="stop" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL DEPENDENCIES
@@ -22,6 +26,7 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 #=================================================
@@ -31,7 +36,7 @@ ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm ci
- 	ynh_hide_warnings ynh_exec_as_app npm run build
+ 	ynh_hide_warnings ynh_exec_as_app NODE_OPTIONS="--max-old-space-size=3000" npm run build
 popd
 
 #=================================================
@@ -42,15 +47,16 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
-
 yunohost service add "$app" --description="Legible badges in SVG" --log="/var/log/$app/$app.log"
+
+ynh_config_add_logrotate
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd"
+ynh_systemctl --service="$app" --action="start" --wait_until="Server is starting up" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT
