@@ -16,13 +16,6 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing dependencies..."
-
-ynh_nodejs_install
-
-#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
@@ -53,7 +46,7 @@ popd
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start" --wait_until="Server is starting up" --log_path="/var/log/$app/$app.log"
+ynh_systemctl --service="$app" --action="start" --log_path="/var/log/$app/$app.log" #--wait_until="Server is starting up"
 
 #=================================================
 # END OF SCRIPT

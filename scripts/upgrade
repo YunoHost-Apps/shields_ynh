@@ -15,13 +15,6 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_systemctl --service="$app" --action="stop" --log_path="/var/log/$app/$app.log"
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing dependencies..."
-
-ynh_nodejs_install
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
@@ -56,7 +49,7 @@ ynh_config_add_logrotate
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --wait_until="Server is starting up" --log_path="/var/log/$app/$app.log"
+ynh_systemctl --service="$app" --action="start" --log_path="/var/log/$app/$app.log" #--wait_until="Server is starting up"
 
 #=================================================
 # END OF SCRIPT
