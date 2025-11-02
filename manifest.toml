@@ -7,7 +7,7 @@ name = "Shields"
 description.en = "Concise, consistent, and legible badges in SVG and raster format"
 description.fr = "Badges concis, cohérents et lisibles au format SVG et raster"
 
-version = "2025.10.02~ynh1"
+version = "2025.11.01~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -44,8 +44,8 @@ ram.runtime = "512M"
 
     [resources.sources.main]
 
-    url = "https://github.com/badges/shields/archive/refs/tags/server-2025-10-02.tar.gz"
-    sha256 = "c8ef9ff124373da98690d5e17449f9355e857102665d41e926197e8d75cdc4b7"
+    url = "https://github.com/badges/shields/archive/refs/tags/server-2025-11-01.tar.gz"
+    sha256 = "0324f6205042673678d70d60614b405016d360782c22bf49cd67d0b7c41a9024"
 
     autoupdate.strategy = "latest_github_tag"
     autoupdate.version_regex = "server-(.*)-(.*)-(.*)"
