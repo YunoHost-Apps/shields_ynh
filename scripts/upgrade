@@ -29,6 +29,7 @@ ynh_script_progression "Installing $app..."
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm ci
  	ynh_hide_warnings ynh_exec_as_app NODE_OPTIONS="--max-old-space-size=3000" npm run build
+	ynh_hide_warnings ynh_exec_as_app npm prune --omit=dev
 popd
 
 #=================================================
